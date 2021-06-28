@@ -12,7 +12,7 @@ class MAHP():
         for i in range(self.n):
             value = int(input(str(i+1)+". parameter:"))
             self.max_parameter_scores.append(value)
-        print("Enter maximum paramater scores:")
+        print("Enter instantaneous paramater scores:")
         for i in range(self.n):
             value = int(input(str(i+1)+". parameter:"))
             while(value > max(self.max_parameter_scores)):
